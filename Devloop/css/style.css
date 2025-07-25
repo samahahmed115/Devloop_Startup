@@ -1,0 +1,395 @@
+/**********   Global    *********/
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-block: 80px;
+    position: relative;
+}
+
+.title::after{
+    content: '';
+ 
+    width: 10px;
+    height: 8px;
+    background-color: #83C3BE;
+    position: absolute;
+    top: 42%;
+    left: 43%;
+    border-radius: 20%;
+}
+
+.title::before{
+    content: '';
+    width: 10px;
+    height: 8px;
+    background-color: #83C3BE;
+    position: absolute;
+    top: 42%;
+    right: 43%;
+    border-radius: 20%;
+}
+
+
+.body{
+    font-family: "Poppins", sans-serif;
+  
+  }
+/**********   navbar    *********/
+  
+  .navbar-brand{
+    color: #046D77;
+  }
+  
+.nav-link {
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: red;
+}
+
+  
+  
+  
+/**********   Home    *********/
+  
+  .top-text{
+   font-size: 50px;
+     font-weight: 1000;
+     color: #101010;
+  }
+  
+  .half-text{
+    font-size: 16px;
+    color: #414141;
+  
+  }
+  .bottom-text{
+     font-weight: 13px;
+     
+    
+    
+  }
+  
+  .bottom-text span i{
+    color: #046D77;
+  }
+
+  /**********   About    *********/
+
+  .about-card{
+      background-color: #83C3BE;
+  }
+
+    /**********   Services    *********/
+
+  .services-text{
+  
+    line-height: 1.5;
+  }
+/**********   Process    *********/
+
+.Process span{
+    background-color: #F5F5F5;
+    color: #555555;
+    font-size: 13px;
+}
+
+.Process p{
+    font-size: 20px;
+}
+
+
+
+
+.Process .item1, .item2, .item3, .item4, .item5, .item6{
+    position: relative;
+}
+
+.Process .item1::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #E9A27C;
+    position: absolute;
+    top: 0;
+    left: 115%;
+    border-radius: 100%;
+}
+.Process .item1::before{
+    content: '';
+    width: 1px;
+    height: 500px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 2%;
+    left: 120%;
+}
+
+
+.Process .item2::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #E9A27C;
+    position: absolute;
+    top: 80%;
+    right: 115%;
+    border-radius: 100%;
+}
+.Process .item2::before{
+    content: '';
+    width: 1px;
+    height: 500px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 80%;
+    right: 120%;
+}
+
+.Process .item3::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #E9A27C;
+    position: absolute;
+    top: 50%;
+    left: 115%;
+    border-radius: 100%;
+}
+.Process .item3::before{
+    content: '';
+    width: 1px;
+    height: 550px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 50%;
+    left: 120%;
+}
+
+
+.Process .item4::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #E9A27C;
+    position: absolute;
+    top: 135%;
+    right: 115%;
+    border-radius: 100%;
+}
+.Process .item4::before{
+    content: '';
+    width: 1px;
+    height: 500px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 135%;
+    right: 120%;
+}
+
+
+
+.Process .item5::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: #E9A27C;
+    position: absolute;
+    top: 100%;
+    left: 115%;
+    border-radius: 100%;
+}
+
+.Process{
+    padding-block: 80px;
+}
+
+
+/**********   Project    *********/
+
+.Project{
+    padding-top: 80px;
+}
+
+.Project h4{
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+}
+
+.Project h4::after{
+     content: '';
+     width: 30px;
+     height: 2px;
+     background-color: #046D77;
+     position: absolute;
+     top: 120%;
+     left: 47%;
+}
+
+
+.Project{
+    padding-bottom: 80px;
+}
+
+
+
+/**********   Contact    *********/
+
+.Contact{
+    padding-top: 0px;
+}
+
+.Contact .firstP{
+    position: relative;
+    font-weight: 500;
+}
+
+
+.Contact .firstP::after{
+        content: '';
+        width: 10px;
+        height: 8px;
+        background-color: #83C3BE;
+        position: absolute;
+        top: 40%;
+        left: -5%;
+        border-radius: 20%;
+    
+}
+
+.Contact .container{
+    width: 60%;
+    margin: auto;
+}
+
+.Contact .secondP{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.Contact button{
+    background-color: #E16A3D;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Contact .firstSpan{
+    color: #046D77;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Contact .secondSpan{
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.Contact{
+    padding-bottom: 80px;
+}
+
+
+/**********   Footer    *********/
+footer{
+    padding-block: 80px;
+    background-color: #046D77;
+    color: #ffffff9d;
+    font-weight: 300;
+}
+
+
+footer h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+footer a{
+    color: #ffffff9d;
+    font-weight: 300;
+}
+
+.footerAbout{
+    position: relative;
+}
+.footerAbout::after{
+    content: '';
+    width: 1px;
+    height: 200px;
+    background-color: #ffffff9d;
+    position: absolute;
+    top: 0;
+    left: 115%;
+}
+
+
+
+.footerLinks{
+    position: relative;
+}
+.footerLinks::after{
+    content: '';
+    width: 1px;
+    height: 200px;
+    background-color: #ffffff9d;
+    position: absolute;
+    top: 0;
+    left: 115%;
+}
+
+
+footer i{
+    color: #fff;
+    padding-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .Process .item1::after,
+    .Process .item1::before,
+    .Process .item2::after,
+    .Process .item2::before,
+    .Process .item3::after,
+    .Process .item3::before,
+    .Process .item4::after,
+    .Process .item4::before,
+    .Process .item5::after,
+    .footerAbout::after,
+    .footerLinks::after
+     {
+    content: none !important; 
+    display: none !important; 
+    width: 0 !important;
+    height: 0 !important;
+    position: static !important;
+  }
+
+  .title::after{
+    left: 30%;
+  }
+  .title::before{
+    right: 30%;
+  }
+}
+
+
